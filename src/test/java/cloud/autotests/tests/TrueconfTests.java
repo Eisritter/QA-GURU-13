@@ -41,7 +41,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("На странице указан актуальный номер телефона", () -> {
-            $("#wac").shouldHave(Condition.attribute(("+7 (495) 698-60-66")));
+            $("#wac").shouldHave(Condition.attribute(("+74956986066")));
         });
     }
 
