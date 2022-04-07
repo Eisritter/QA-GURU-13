@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class TrueconfTests extends TestBase {
     @Test
-    @DisplayName("На странице скачивания для браузеров есть кнопка 'Попробовать бесплатно'")
+    @DisplayName("На странице скачивания для Windows есть кнопка 'Скачать бесплатно'")
     void TryFreeForBrowsers() {
         step("Открыть https://trueconf.ru/", () -> {
             open("https://trueconf.ru/");
@@ -24,12 +24,8 @@ public class TrueconfTests extends TestBase {
             $(byText("Скачать")).click();
         });
 
-        step("Клик по 'Браузеры'", () -> {
-            $(byText("Браузеры")).click();
-        });
-
-        step("На странице есть кнопка 'Попробовать бесплатно'", () -> {
-           $(".header-btn__item").shouldBe(visible);
+        step("На странице есть кнопка 'Скачать бесплатно'", () -> {
+           $(".default-button__text").shouldBe(visible);
         });
     }
 
@@ -41,7 +37,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("На странице указан актуальный номер телефона", () -> {
-            $("#wac").shouldHave(Condition.attribute(("+74956986066")));
+            $("#wac").shouldHave(Condition.attribute(("+7 (495) 698-60-66")));
         });
     }
 
