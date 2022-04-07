@@ -21,7 +21,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Нажать кнопку 'Скачать'", () -> {
-          $(".nav-link__download").click();
+            $(byText("Скачать")).click();
         });
 
         step("Клик по 'Браузеры'", () -> {
@@ -41,7 +41,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("На странице указан актуальный номер телефона", () -> {
-            $(".global-nav--wac__phone").shouldHave(Condition.attribute("+7 (495) 698-60-66"));
+            $("#wac").shouldHave(Condition.attribute(("+7 (495) 698-60-66")));
         });
     }
 
@@ -61,7 +61,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("В заголовке страницы содержится текст 'Тарифы TrueConf Online'", () -> {
-            $("h1.title").shouldHave(Condition.text("Тарифы TrueConf Online"));
+            $("h1").shouldHave(Condition.text("Тарифы TrueConf Online"));
         });
     }
 
