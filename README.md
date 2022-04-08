@@ -35,17 +35,18 @@
 ## <img src="src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//">Сборка в Jenkins</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//"><img src="src/test/resources/screenshots/jenkins_dashboard.png" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//"><img src="src/test/resources/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
 </p>
 
 ### :maple_leaf: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
-- version (версия браузера, по умолчанию 91.0)
-- size (размер окна браузера, по умолчанию 1920x1080)
-- remoteUrl (логин, пароль и адрес удаленного сервера selenoid)
+- browserSize (размер окна браузера, по умолчанию 1920x1080)
+- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
+- threads (количество потоков)
+- AlureNotificationVersion (версия AllureNotification)
 
-## :japanese_ogre: Запуск тестов из терминала
+## :computer: Запуск тестов из терминала
 
 Локальный запуск:
 ```
@@ -57,9 +58,10 @@ gradle clean test
 clean
 test
 -Dbrowser=${BROWSER}
--Dversion=${VERSION}
--Dsize=${BROWSER_SIZE}
--Durl=${REMOTE_URL}
+-DbrowserSize=${BROWSER_SIZE}
+-DremoteDriverUrl=https://user1:1234@${REMOTE_DRIVER_URL}/wd/hub/
+-DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
+-Dthreads=${THREADS}
 ```
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
 
