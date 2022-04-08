@@ -51,7 +51,11 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Кнопка 'онлайн-консультация' кликабельна", () -> {
-            $(".chat-button-wrapper__button z-depth-1").shouldBe(visible);
+            $(byText("Возможности")).click();
+        });
+
+        step("Кнопка 'онлайн-консультация' кликабельна", () -> {
+            $(".h2--normal h_no_border c--nav-dd__link c--nav-dd__link_advantages").click();
         });
     }
 
