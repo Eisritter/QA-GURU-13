@@ -51,7 +51,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Кнопка 'онлайн-консультация' кликабельна", () -> {
-            $(".chat-button-wrapper__button z-depth-1").shouldBe(enabled);
+            $(".chat-button-wrapper__button z-depth-1").shouldBe(visible);
         });
     }
 
