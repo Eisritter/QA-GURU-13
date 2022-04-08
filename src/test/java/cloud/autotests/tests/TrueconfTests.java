@@ -39,7 +39,8 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Клик на кнопку 'Наш блог'", () -> {
-            $(".global-nav--wac__link-top global-nav--wac__link-top__blog-link").click();
+            //$(".global-nav--wac__link-top global-nav--wac__link-top__blog-link").click();
+            $(byText("Наш блог")).click();
         });
 
         step("На странице есть ссылка на вебинары", () -> {
@@ -54,8 +55,9 @@ public class TrueconfTests extends TestBase {
             open("https://trueconf.ru/");
         });
 
-        step("Клик по 'Контакты'", () -> {
-            $(byText("Компания")).click();
+        step("Клик по 'Компания'", () -> {
+            $("#dropdown-Contacts").click();
+
         });
 
         step("Клик по 'Контакты'", () -> {
@@ -100,19 +102,4 @@ public class TrueconfTests extends TestBase {
             assertThat(actualTitle).isEqualTo(expectedTitle);
         });
     }
-
-//    @Test
-//    @DisplayName("В консоли логов браузера нет ошибок")
-//    void consoleShouldNotHaveErrorsTest() {
-//        step("Open url 'https://trueconf.ru/'", () ->
-//            open("https://trueconf.ru/"));
-//
-//        step("Логи консоли браузера не содержат текст 'SEVERE'", () -> {
-//            String consoleLogs = DriverUtils.getConsoleLogs();
-//            String errorText = "SEVERE";
-//
-//            assertThat(consoleLogs).doesNotContain(errorText);
-//        });
-//    }
-
 }
