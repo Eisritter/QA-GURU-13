@@ -39,12 +39,11 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Клик на кнопку 'Наш блог'", () -> {
-            //$(".global-nav--wac__link-top global-nav--wac__link-top__blog-link").click();
             $(byText("Наш блог")).click();
         });
 
         step("На странице есть ссылка на вебинары", () -> {
-            $(".link_category").shouldHave(Condition.attribute("Вебинары"));
+            $(".link_category").shouldHave(text("Вебинары"));
         });
     }
 
@@ -56,7 +55,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Клик по 'Компания'", () -> {
-            $("#dropdown-Contacts").click();
+            $(byText("Компания")).click();
 
         });
 
