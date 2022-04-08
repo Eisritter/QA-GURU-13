@@ -63,35 +63,29 @@ test
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
 -Dthreads=${THREADS}
 ```
-## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
+## <img src="src/test/resources/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
 
 ### :lady_beetle: Основное окно
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/Screenshot_523.png">
+<img title="Allure Overview Dashboard" src="src/test/resources/screenshots/allure-main-page.png">
 </p>
 
 ### :cherries: Тесты
 
 <p align="center">
-<img title="Allure Tests" src="images/screens/Screenshot_524.png">
+<img title="Allure Tests" src="src/test/resources/screenshots/allure-test-page.png">
 </p>
 
-### :cut_of_meat: Графики
+## <img src="src/test/resources/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
-<img title="Allure Graphics" src="images/screens/Screenshot_525.png">
-</p>
-
-## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
-
-<p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/Screenshot_528.png" >
+<img title="Telegram bot" src="src/test/resources/screenshots/telegram_bot.png" >
 </p>
 
 
-## <img src="images/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения теста
+## <img src="src/test/resources/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения теста
 
 <p align="center">
-<img title="Selenoid Video" src="images/gif/видео.gif" width="250" height="153"  alt="video"> 
+<img title="Selenoid Video" src="src/test/resources/gif/видео.gif" width="250" height="153"  alt="video"> 
 </p>
