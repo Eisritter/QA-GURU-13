@@ -39,7 +39,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Клик на кнопку 'Наш блог'", () -> {
-            $(byText(" Наш блог")).click();
+            $(".global-nav--wac__link-top global-nav--wac__link-top__blog-link").click();
         });
 
         step("На странице есть ссылка на вебинары", () -> {
@@ -55,7 +55,11 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Клик по 'Контакты'", () -> {
-            $(byText("Контакты")).click();
+            $(byText("Компания")).click();
+        });
+
+        step("Клик по 'Контакты'", () -> {
+            $(".h4").click();
         });
 
         step("В заголовке страницы содержится текст 'Тарифы TrueConf Online'", () -> {
