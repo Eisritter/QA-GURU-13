@@ -44,14 +44,18 @@ public class TrueconfTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Кнопка 'Онлайн-консультация' активна")
+    @DisplayName("Кнопка 'Войти в конференцию' кликабельна")
     void CheckRegistrationButton() {
         step("Открыть https://trueconf.ru/", () -> {
             open("https://trueconf.ru/");
         });
 
-        step("Кнопка 'онлайн-консультация' кликабельна", () -> {
+        step("Нажать на кнопку 'Войти в конференцию' в хедере", () -> {
             $(byText("Войти в конференцию")).click();
+        });
+
+        step("Нажать на кнопку 'Войти в конференцию' на странице", () -> {
+            $(".default-button default-button--md default-button--orange default-button--rounded white-text").click();
         });
     }
 
