@@ -8,7 +8,7 @@
 - [Запуск из терминала](#computer-Запуск-тестов-из-терминала)
 - [Отчет в Allure report](#-отчет-в-allure-report)
 - [Отчет в Telegram](#-уведомление-в-telegram-при-помощи-бота)
-- [Видео пример прохождения тестов](#-видео-прохождения-теста)
+- [Видео пример прохождения тестов](#-видео-пример-прохождения-теста)
 
 ## :computer: Технологии и инструменты
 <p align="center">
@@ -86,7 +86,7 @@ test
 </p>
 
 
-## <img src="src/test/resources/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения теста
+## <img src="src/test/resources/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео пример прохождения теста
 
 <p align="center">
 <img title="Selenoid Video" src="src/test/resources/gif/testvideo.gif" alt="video"> 
