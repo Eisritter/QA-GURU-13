@@ -26,15 +26,16 @@
 
 ## :boom: Реализованные проверки
 
-- ✓ Поиск вакансии QA Automation
-- ✓ Открытие статьи о Biocad и Exchange (параметризованные тесты)
-- ✓ Поиск информации о компании Biocad в скачанном PDF файле
-- ✓ Смена языка с русского на английский
-- ✓ Заполнение Запроса в отдел продаж
+- ✓ На странице скачивания для Windows есть кнопка 'Скачать бесплатно'
+- ✓ У заголовка вкладки верный текст
+- ✓ Страница тарифов TrueConf Online открывается
+- ✓ Кнопка 'Войти в конференцию' кликабельна
+- ✓ На странице блога есть ссылка на вебинары
 
-## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"> job </a>
+## <img src="src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
+<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//">Сборка в Jenkins</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"><img src="images/screens/Screenshot_522.png" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//"><img src="src/test/resources/screenshots/jenkins_dashboard.png" alt="Jenkins"/></a>
 </p>
 
 ### :maple_leaf: Параметры сборки в Jenkins:
