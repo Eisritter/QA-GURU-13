@@ -4,7 +4,7 @@
 
 - [Технологии и инструменты](#computer-технологии-и-инструменты)
 - [Реализованные проверки](#boom-Реализованные-проверки)
-- [Сборка в Jenkins](#-jenkins-job)
+- [Сборка в Jenkins](#-сборка-в-jenkins)
 - [Запуск из терминала](#computer-Запуск-тестов-из-терминала)
 - [Отчет в Allure report](#-отчет-в-allure-report)
 - [Отчет в Telegram](#-уведомление-в-telegram-при-помощи-бота)
@@ -32,8 +32,8 @@
 ✓ Кнопка 'Войти в конференцию' кликабельна
 ✓ На странице блога есть ссылка на вебинары
 
-## <img src="src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//">Сборка в Jenkins</a>
+## <img src="src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
+<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//">Jenkins job</a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//"><img src="src/test/resources/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
 </p>
