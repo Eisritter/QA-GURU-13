@@ -12,8 +12,8 @@
 
 ## :computer: Технологии и инструменты
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
-<img width="6%" title="Java" src="images/logo/Java.svg">
+<img width="6%" title="IntelliJ IDEA" src="test/resources/logo/Intelij_IDEA.svg">
+<img width="6%" title="Java" src="test/resources/logo/Java.svg">
 <img width="6%" title="Selenide" src="images/logo/Selenide.svg">
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
 <img width="6%" title="Allure Report" src="images/logo/Allure_Report.svg">
