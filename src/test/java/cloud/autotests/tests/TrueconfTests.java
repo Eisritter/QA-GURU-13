@@ -55,7 +55,7 @@ public class TrueconfTests extends TestBase {
         });
 
         step("Нажать на кнопку 'Войти в конференцию' на странице", () -> {
-            $("#default-button default-button--md default-button--orange default-button--rounded white-text").click();
+            $(".default-button--orange").click();
         });
     }
 
