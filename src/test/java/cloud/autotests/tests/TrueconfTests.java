@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class TrueconfTests extends TestBase {
     @Test
     @DisplayName("На странице скачивания для Windows есть кнопка 'Скачать бесплатно'")
-    void TryFreeForBrowsers() {
+    void tryFreeForBrowsers() {
         step("Открыть https://trueconf.ru/", () -> {
             open("https://trueconf.ru/");
         });
@@ -22,14 +22,14 @@ public class TrueconfTests extends TestBase {
             $(byText("Скачать")).click();
         });
 
-        step("На странице есть кнопка 'Скачать бесплатно'", () -> {
+        step("Проверяем, что на странице есть кнопка 'Скачать бесплатно'", () -> {
            $(".default-button__text").shouldBe(visible);
         });
     }
 
     @Test
     @DisplayName("В блоге есть ссылка на вебинары")
-    void CheckWebinarsLink() {
+    void checkWebinarsLink() {
         step("Открыть https://trueconf.ru/", () -> {
             open("https://trueconf.ru/");
         });
@@ -38,14 +38,14 @@ public class TrueconfTests extends TestBase {
             $(byText("Наш блог")).click();
         });
 
-        step("На странице есть ссылка на вебинары", () -> {
+        step("Проверяем, что на странице есть ссылка на вебинары", () -> {
             $(".link_category").shouldHave(text("Вебинары"));
         });
     }
 
     @Test
     @DisplayName("Кнопка 'Войти в конференцию' кликабельна")
-    void CheckRegistrationButton() {
+    void checkRegistrationButton() {
         step("Открыть https://trueconf.ru/", () -> {
             open("https://trueconf.ru/");
         });
@@ -54,14 +54,14 @@ public class TrueconfTests extends TestBase {
             $(byText("Войти в конференцию")).click();
         });
 
-        step("Нажать на кнопку 'Войти в конференцию' на странице", () -> {
+        step("Проверяем, что кнопка 'Войти в конференцию' кликабельна", () -> {
             $(".default-button--orange").click();
         });
     }
 
     @Test
     @DisplayName("Проверка открытия страницы тарифов")
-    void CheckTariffs() {
+    void checkTariffs() {
         step("Открыть https://trueconf.ru/", () -> {
             open("https://trueconf.ru/");
         });
@@ -74,18 +74,18 @@ public class TrueconfTests extends TestBase {
             $(byText("Выбрать тариф")).click();
         });
 
-        step("В заголовке страницы содержится текст 'Тарифы TrueConf Online'", () -> {
+        step("Проверяем, что в заголовке страницы содержится текст 'Тарифы TrueConf Online'", () -> {
             $("h1").shouldHave(text("Тарифы TrueConf Online"));
         });
     }
 
     @Test
     @DisplayName("У заголовка вкладки актуальный текст")
-    void CheckTitlePage() {
+    void checkTitlePage() {
         step("Open url 'https://trueconf.ru/'", () ->
             open("https://trueconf.ru/"));
 
-        step("Заголовок вкладки должен быть 'Видеоконференция в локальной сети и через интернет Видеоконференции для бизнеса — TrueConf'", () -> {
+        step("Проверяем, что заголовок вкладки должен быть 'Видеоконференция в локальной сети и через интернет Видеоконференции для бизнеса — TrueConf'", () -> {
             String expectedTitle = "Видеоконференция в локальной сети и через интернет Видеоконференции для бизнеса — TrueConf";
             String actualTitle = title();
 
