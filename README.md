@@ -2,13 +2,13 @@
 
 ## 📃 Содержание:
 
-- [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
-- [Реализованные проверки](#earth_africa-Реализованные-проверки)
-- [Сборка в Jenkins](#earth_africa-Jenkins-job)
-- [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
-- [Allure отчет](#earth_africa-Allure-отчет)
-- [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
-- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
+- [Технологии и инструменты](#computer-технологии-и-инструменты)
+- [Реализованные проверки](#boom-Реализованные-проверки)
+- [Сборка в Jenkins](#-сборка-в-jenkins)
+- [Запуск из терминала](#computer-Запуск-тестов-из-терминала)
+- [Отчет в Allure report](#-отчет-в-allure-report)
+- [Отчет в Telegram](#-уведомление-в-telegram-при-помощи-бота)
+- [Видео пример прохождения тестов](#-видео-пример-прохождения-теста)
 
 ## :computer: Технологии и инструменты
 <p align="center">
@@ -26,16 +26,16 @@
 
 ## :boom: Реализованные проверки
 
-- ✓ На странице скачивания для Windows есть кнопка 'Скачать бесплатно'
-- ✓ У заголовка вкладки верный текст
-- ✓ Страница тарифов TrueConf Online открывается
-- ✓ Кнопка 'Войти в конференцию' кликабельна
-- ✓ На странице блога есть ссылка на вебинары
+- На странице скачивания для Windows есть кнопка 'Скачать бесплатно'
+- У заголовка вкладки верный текст
+- Страница тарифов TrueConf Online открывается
+- Кнопка 'Войти в конференцию' кликабельна
+- На странице блога есть ссылка на вебинары
 
-## <img src="src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//">Сборка в Jenkins</a>
+## <img src="src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
+<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/">Jenkins job</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework//"><img src="src/test/resources/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/"><img src="src/test/resources/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
 </p>
 
 ### :maple_leaf: Параметры сборки в Jenkins:
@@ -58,12 +58,14 @@ gradle clean test
 clean
 test
 -Dbrowser=${BROWSER}
+-DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
--DremoteDriverUrl=https://user1:1234@${REMOTE_DRIVER_URL}/wd/hub/
+-DbrowserMobileView="${BROWSER_MOBILE}"
+-DremoteDriverUrl=https://${USER}:${PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
 -Dthreads=${THREADS}
 ```
-## <img src="src/test/resources/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
+## <img src="src/test/resources/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/allure">Allure report</a>
 
 ### :lady_beetle: Основное окно
 
@@ -84,8 +86,8 @@ test
 </p>
 
 
-## <img src="src/test/resources/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения теста
+## <img src="src/test/resources/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео пример прохождения теста
 
 <p align="center">
-<img title="Selenoid Video" src="src/test/resources/gif/видео.gif" width="250" height="153"  alt="video"> 
+<img title="Selenoid Video" src="src/test/resources/gif/testvideo.gif" alt="video"> 
 </p>
