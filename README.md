@@ -12,16 +12,16 @@
 
 ## :computer: Технологии и инструменты
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="src/test/resources/logo/Intelij_IDEA.svg">
-<img width="6%" title="Java" src="src/test/resources/logo/Java.svg">
-<img width="6%" title="Selenide" src="src/test/resources/logo/Selenide.svg">
-<img width="6%" title="Selenoid" src="src/test/resources/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="src/test/resources/logo/Allure_Report.svg">
-<img width="6%" title="Gradle" src="src/test/resources/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="src/test/resources/logo/JUnit5.svg">
-<img width="6%" title="GitHub" src="src/test/resources/logo/GitHub.svg">
-<img width="6%" title="Jenkins" src="src/test/resources/logo/Jenkins.svg">
-<img width="6%" title="Telegram" src="src/test/resources/logo/Telegram.svg">
+<img width="6%" title="IntelliJ IDEA" src="image/logo/Intelij_IDEA.svg">
+<img width="6%" title="Java" src="image/logo/Java.svg">
+<img width="6%" title="Selenide" src="image/logo/Selenide.svg">
+<img width="6%" title="Selenoid" src="image/logo/Selenoid.svg">
+<img width="6%" title="Allure Report" src="image/logo/Allure_Report.svg">
+<img width="6%" title="Gradle" src="image/logo/Gradle.svg">
+<img width="6%" title="JUnit5" src="image/logo/JUnit5.svg">
+<img width="6%" title="GitHub" src="image/logo/GitHub.svg">
+<img width="6%" title="Jenkins" src="image/logo/Jenkins.svg">
+<img width="6%" title="Telegram" src="image/logo/Telegram.svg">
 </p>
 
 ## :boom: Реализованные проверки
@@ -32,10 +32,10 @@
 - Кнопка 'Войти в конференцию' кликабельна
 - На странице блога есть ссылка на вебинары
 
-## <img src="src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
+## <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
 <a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/">Jenkins job</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/"><img src="src/test/resources/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/"><img src="image/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
 </p>
 
 ### :maple_leaf: Параметры сборки в Jenkins:
@@ -65,29 +65,29 @@ test
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
 -Dthreads=${THREADS}
 ```
-## <img src="src/test/resources/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/allure">Allure report</a>
+## <img src="image/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/allure">Allure report</a>
 
 ### :lady_beetle: Основное окно
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="src/test/resources/screenshots/allure-main-page.png">
+<img title="Allure Overview Dashboard" src="image/screenshots/allure-main-page.png">
 </p>
 
 ### :cherries: Тесты
 
 <p align="center">
-<img title="Allure Tests" src="src/test/resources/screenshots/allure-test-page.png">
+<img title="Allure Tests" src="image/screenshots/allure-test-page.png">
 </p>
 
-## <img src="src/test/resources/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
+## <img src="image/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
-<img title="Telegram bot" src="src/test/resources/screenshots/telegram_bot.png" >
+<img title="Telegram bot" src="image/screenshots/telegram_bot.png" >
 </p>
 
 
-## <img src="src/test/resources/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео пример прохождения теста
+## <img src="image/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео пример прохождения теста
 
 <p align="center">
-<img title="Selenoid Video" src="src/test/resources/gif/testvideo.gif" alt="video"> 
+<img title="Selenoid Video" src="image/gif/testvideo.gif" alt="video"> 
 </p>
