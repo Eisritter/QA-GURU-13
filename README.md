@@ -84,13 +84,13 @@ test
 ### :lady_beetle: Результаты запуска тестов
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="image/screenshots/allure-test-ops-launches.png">
+<img title="Allure Launches" src="image/screenshots/allure-test-ops-launches.png">
 </p>
 
 ### :cherries: Тест-кейсы
 
 <p align="center">
-<img title="Allure Tests" src="image/screenshots/allure-test-ops-test-cases.png">
+<img title="Allure Tests Cases" src="image/screenshots/allure-test-ops-test-cases.png">
 </p>
 
 ## <img src="image/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
