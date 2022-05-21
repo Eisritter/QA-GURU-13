@@ -84,7 +84,7 @@ public class FavQsUiTests extends TestBaseUi {
             loginPage.signInButtonClick();
         });
 
-        step("Проверяем, что появилась подсказка с текстом 'You entered an invalid login or password.'", () -> {
+        step("Проверяем, что появилась подсказка с текстом 'You entered an invalid login or password'", () -> {
             loginPage.alertInfoCheck();
         });
     }
