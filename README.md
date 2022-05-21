@@ -17,6 +17,7 @@
 <img width="6%" title="Selenide" src="image/logo/Selenide.svg">
 <img width="6%" title="Selenoid" src="image/logo/Selenoid.svg">
 <img width="6%" title="Allure Report" src="image/logo/Allure_Report.svg">
+<img width="6%" title="Allure TestOps" src="image/logo/Allure_TestOps.svg">
 <img width="6%" title="Gradle" src="image/logo/Gradle.svg">
 <img width="6%" title="JUnit5" src="image/logo/JUnit5.svg">
 <img width="6%" title="GitHub" src="image/logo/GitHub.svg">
@@ -79,7 +80,7 @@ test
 <img title="Allure Tests" src="image/screenshots/allure-test-page.png">
 </p>
 
-## <img src="image/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://allure.autotests.cloud/project/1322/dashboards">Allure TestOps</a>
+## <img src="image/logo/Allure_TestOps.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://allure.autotests.cloud/project/1322/dashboards">Allure TestOps</a>
 
 ### :lady_beetle: Результаты запуска тестов
 
