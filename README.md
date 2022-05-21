@@ -79,6 +79,20 @@ test
 <img title="Allure Tests" src="image/screenshots/allure-test-page.png">
 </p>
 
+## <img src="image/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://allure.autotests.cloud/project/1322/dashboards">Allure TestOps</a>
+
+### :lady_beetle: Результаты запуска тестов
+
+<p align="center">
+<img title="Allure Overview Dashboard" src="image/screenshots/allure-test-ops-launches.png">
+</p>
+
+### :cherries: Тест-кейсы
+
+<p align="center">
+<img title="Allure Tests" src="image/screenshots/allure-test-ops-test-cases.png">
+</p>
+
 ## <img src="image/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
