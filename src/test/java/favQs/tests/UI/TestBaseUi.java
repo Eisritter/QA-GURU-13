@@ -1,9 +1,9 @@
-package trueconf.tests.UI;
+package favQs.tests.UI;
 
-import trueconf.config.Project;
-import trueconf.helpers.AllureAttachments;
-import trueconf.helpers.DriverSettings;
-import trueconf.helpers.DriverUtils;
+import favQs.config.Project;
+import favQs.helpers.AllureAttachments;
+import favQs.helpers.DriverSettings;
+import favQs.helpers.DriverUtils;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.junit5.AllureJunit5;

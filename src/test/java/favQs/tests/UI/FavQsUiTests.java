@@ -1,8 +1,8 @@
-package trueconf.tests.UI;
+package favQs.tests.UI;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import trueconf.pages.*;
+import favQs.pages.*;
 
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;

@@ -1,6 +1,6 @@
-package trueconf.helpers;
+package favQs.helpers;
 
-import trueconf.config.Project;
+import favQs.config.Project;
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;

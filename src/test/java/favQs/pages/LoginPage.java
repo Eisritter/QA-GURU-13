@@ -1,4 +1,4 @@
-package trueconf.pages;
+package favQs.pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
