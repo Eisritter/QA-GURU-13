@@ -1,6 +1,6 @@
-package trueconf.helpers;
+package favQs.helpers;
 
-import trueconf.config.Project;
+import favQs.config.Project;
 import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

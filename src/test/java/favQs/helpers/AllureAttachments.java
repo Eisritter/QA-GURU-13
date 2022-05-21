@@ -1,4 +1,4 @@
-package trueconf.helpers;
+package favQs.helpers;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;

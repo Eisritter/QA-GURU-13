@@ -1,4 +1,4 @@
-package trueconf.config;
+package favQs.config;
 
 import org.aeonbits.owner.Config;
 
