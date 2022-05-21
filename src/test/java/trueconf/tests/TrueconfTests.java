@@ -89,7 +89,7 @@ public class TrueconfTests extends TestBase {
     @Test
     @DisplayName("У заголовка вкладки актуальный текст")
     void checkTitlePage() {
-        step("Open url 'https://trueconf.ru/'", () ->
+        step("Открыть 'https://trueconf.ru/'", () ->
                 mainPage.openPage());
 
         step("Проверяем, что заголовок вкладки должен быть 'Видеоконференция в локальной сети и через интернет Видеоконференции для бизнеса — TrueConf'", () -> {
