@@ -9,28 +9,28 @@ import static com.codeborne.selenide.Selenide.open;
 public class MainPage {
 
     SelenideElement
-            downloadButton = $(byText("Скачать")),
-            blogButton = $(byText("Наш блог")),
-            joinConferenceButton = $(byText("Войти в конференцию")),
-            priceButton = $(byText("Цены"));
+            searchInput = $("#search"),
+            appButton = $(byText("App")),
+            loginButton = $("#login-button"),
+            legalButton = $(byText("Legal"));
 
     public void openPage() {
-        open("https://trueconf.ru");
+        open("https://favqs.com");
     }
 
-    public void blogButtonClick() {
-        blogButton.click();
+    public void appButtonClick() {
+        appButton.click();
     }
 
-    public void downloadButtonClick() {
-        downloadButton.click();
+    public void legalButtonClick() {
+        legalButton.click();
     }
 
-    public void joinConferenceButtonClick() {
-        joinConferenceButton.click();
+    public void loginButtonClick() {
+        loginButton.click();
     }
 
-    public void priceButtonClick() {
-        priceButton.click();
+    public void SearchQuotesInput() {
+        searchInput.setValue("Never, never, never, never give up").pressEnter();
     }
 }

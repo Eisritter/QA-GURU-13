@@ -5,12 +5,12 @@ import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
-public class BlogPage {
+public class SearchPage {
 
     SelenideElement
-            webinarsLink = $(".link_category");
+            quoteAuthor = $(".quote-author", 1);
 
-    public void webinarsLinkCheck() {
-        webinarsLink.shouldHave(text("Вебинары"));
+    public void quoteAuthorCheck() {
+        quoteAuthor.shouldHave(text("Winston Churchill"));
     }
 }

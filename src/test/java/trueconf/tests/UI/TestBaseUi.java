@@ -1,4 +1,4 @@
-package trueconf.tests;
+package trueconf.tests.UI;
 
 import trueconf.config.Project;
 import trueconf.helpers.AllureAttachments;
@@ -14,7 +14,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 
 @ExtendWith({AllureJunit5.class})
-public class TestBase {
+public class TestBaseUi {
     @BeforeAll
     static void setUp() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
