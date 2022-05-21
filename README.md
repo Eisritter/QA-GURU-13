@@ -27,14 +27,14 @@
 
 ## :boom: Реализованные проверки
 
-- На странице скачивания для Windows есть кнопка 'Скачать бесплатно'
-- У заголовка вкладки верный текст
-- Страница тарифов TrueConf Online открывается
-- Кнопка 'Войти в конференцию' кликабельна
-- На странице блога есть ссылка на вебинары
+- Поиск цитаты Уинстона Черчилля
+- На странице Privacy policy есть контактная почта
+- На странице App ссылка приложения для iphone активна
+- При авторизации с некорректными данными появляется подсказка
+- У заголовка вкладки актуальный текст
 
 ## <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
-<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/">Jenkins job</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-UI/">Jenkins job</a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/C11-eisritter-unit13-homework/"><img src="image/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
 </p>
