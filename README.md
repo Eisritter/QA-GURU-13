@@ -23,15 +23,23 @@
 <img width="6%" title="GitHub" src="image/logo/GitHub.svg">
 <img width="6%" title="Jenkins" src="image/logo/Jenkins.svg">
 <img width="6%" title="Telegram" src="image/logo/Telegram.svg">
+ <img width="6%" title="Telegram" src="image/logo/Rest-Assured.svg">
 </p>
 
 ## :boom: Реализованные проверки
 
+UI
 - Поиск цитаты Уинстона Черчилля
 - На странице Privacy policy есть контактная почта
 - На странице App ссылка приложения для iphone активна
 - При авторизации с некорректными данными появляется подсказка
 - У заголовка вкладки актуальный текст
+
+API
+- Получение списка цитат 2й страницы
+- Создание сессии
+- Положительная оценка цитаты
+- Добавление цитаты в избранное
 
 ## <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
 <a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-UI/">Jenkins job</a>
@@ -101,7 +109,7 @@ test
 </p>
 
 
-## <img src="image/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео пример прохождения теста
+## <img src="image/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео пример прохождения UI теста
 
 <p align="center">
 <img title="Selenoid Video" src="image/gif/testvideo.gif" alt="video"> 
