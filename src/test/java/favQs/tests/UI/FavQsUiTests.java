@@ -26,7 +26,7 @@ public class FavQsUiTests extends TestBaseUi {
             mainPage.openPage();
         });
 
-        step("Ввести цитату 'Never, never, never, never give up'", () -> {
+        step("Ввести цитату 'Never, never, never, never give up' ", () -> {
             mainPage.SearchQuotesInput();
         });
 
