@@ -1,6 +1,7 @@
 package favQs.tests.UI;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import favQs.pages.*;
 
@@ -18,6 +19,7 @@ public class FavQsUiTests extends TestBaseUi {
 
 
     @Test
+    @Tag("UI")
     @DisplayName("Поиск цитаты Уинстона Черчилля")
     void searchQuotesTest() {
         step("Открыть https://favqs.com/", () -> {
@@ -34,6 +36,7 @@ public class FavQsUiTests extends TestBaseUi {
     }
 
     @Test
+    @Tag("UI")
     @DisplayName("На странице App ссылка приложения для iphone активна")
     void iphoneAppLinkTest() {
         step("Открыть https://favqs.com/", () -> {
@@ -50,6 +53,7 @@ public class FavQsUiTests extends TestBaseUi {
     }
 
     @Test
+    @Tag("UI")
     @DisplayName("На странице Privacy policy есть контактная почта")
     void contactEmailTest() {
         step("Открыть https://favqs.com/", () -> {
@@ -70,6 +74,7 @@ public class FavQsUiTests extends TestBaseUi {
     }
 
     @Test
+    @Tag("UI")
     @DisplayName("При авторизации с некорректными данными появляется подсказка")
     void alertLoginPageTests() {
         step("Открыть https://favqs.com/", () -> {
@@ -91,6 +96,7 @@ public class FavQsUiTests extends TestBaseUi {
 
 
     @Test
+    @Tag("UI")
     @DisplayName("У заголовка вкладки актуальный текст")
     void TitlePageTests() {
         step("Открыть 'https://favqs.com/'", () ->
