@@ -40,7 +40,7 @@
 >- [x] Добавление цитаты в избранное
 
 ## <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
-<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-UI/">Jenkins job</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-UI-and-API//">Jenkins job</a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/C11-eisritter-UI-and-API/"><img src="image/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
 </p>
