@@ -1,4 +1,4 @@
-package favQs.tests.Api;
+package favQs.tests.api;
 
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;

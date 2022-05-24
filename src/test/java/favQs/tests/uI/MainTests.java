@@ -1,22 +1,15 @@
-package favQs.tests.UI;
+package favQs.tests.uI;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import favQs.pages.*;
 
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class FavQsUiTests extends TestBaseUi {
-    AppPage appPage = new AppPage();
-    LoginPage loginPage = new LoginPage();
-    SearchPage searchPage = new SearchPage();
-    MainPage mainPage = new MainPage();
-    LegalPage legalPage = new LegalPage();
-
+public class MainTests extends TestBaseUi {
 
     @Test
     @Tag("UI")

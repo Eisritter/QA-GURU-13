@@ -1,4 +1,4 @@
-package favQs.tests.Api;
+package favQs.tests.api;
 
 import favQs.model.CreateSessionResponse;
 import favQs.model.QuotesResponse;
@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FavQsApiTests extends TestBaseApi {
+public class QuotesTests extends TestBaseApi {
 
     @Test
     @Tag("API")
