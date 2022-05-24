@@ -27,22 +27,20 @@
 </p>
 
 ## :boom: Реализованные проверки
-
-UI
-- Поиск цитаты Уинстона Черчилля
-- На странице Privacy policy есть контактная почта
-- На странице App ссылка приложения для iphone активна
-- При авторизации с некорректными данными появляется подсказка
-- У заголовка вкладки актуальный текст
-
-API
-- Получение списка цитат 2й страницы
-- Создание сессии
-- Положительная оценка цитаты
-- Добавление цитаты в избранное
+### &nbsp;&nbsp;&nbsp; UI
+>- [x] Поиск цитаты Уинстона Черчилля
+>- [x] На странице Privacy policy есть контактная почта
+>- [x] На странице App ссылка приложения для iphone активна
+>- [x] При авторизации с некорректными данными появляется подсказка
+>- [x] У заголовка вкладки актуальный текст
+### &nbsp;&nbsp;&nbsp; API
+>- [x] Получение списка цитат 2й страницы
+>- [x] Создание сессии
+>- [x] Положительная оценка цитаты
+>- [x] Добавление цитаты в избранное
 
 ## <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
-<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-UI/">Jenkins job</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/C11-eisritter-UI-and-API//">Jenkins job</a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/C11-eisritter-UI-and-API/"><img src="image/screenshots/jenkins-dashboard.png" alt="Jenkins"/></a>
 </p>
