@@ -10,7 +10,6 @@ repositories {
 
 def allureVersion = "2.14.0",
     selenideVersion = "5.24.0",
-    restAssuredVersion = "5.0.1",
     junitVersion = "5.7.2"
 
 allure {
